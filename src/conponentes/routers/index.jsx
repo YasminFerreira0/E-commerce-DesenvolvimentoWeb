@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router";
 import Login from "../../pages/login";
 import CadastroLogin from "../../pages/cadastroLogin";
 import PaginaProduto from "../../pages/produtos";
+import Home from "../../pages/home";
 
 export default function Routers() {
     return (
@@ -21,7 +22,7 @@ export default function Routers() {
             />
             <Route
                 path="/home"
-                element={<PaginaProduto />}
+                element={<Home />}
             />
         </Routes>
     );
