@@ -1,0 +1,46 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #18181B;
+    width: 100vw;
+    padding:0.7rem 2rem;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo h1{
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.cabecalho lu{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-right:15vw;
+}
+
+.cabecalho lu  li{
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cabecalho lu  li:hover{
+    border-bottom: 2px solid #9333EA;
+}
