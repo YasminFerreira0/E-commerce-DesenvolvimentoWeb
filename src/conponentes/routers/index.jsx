@@ -7,7 +7,7 @@ import Home from "../../pages/home";
 export default function Routers() {
     return (
         <Routes>
-            <Route index element={<PaginaProduto/>}/>
+            <Route index element={<Home />}/>
             <Route
                 path="/login"
                 element={<Login />}
