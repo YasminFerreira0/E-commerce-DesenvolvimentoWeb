@@ -3,7 +3,8 @@ import Login from "../../pages/login";
 import CadastroLogin from "../../pages/cadastroLogin";
 import PaginaProduto from "../../pages/produtos";
 import Home from "../../pages/home";
-import PrivateRoute from "../privateRouter";
+import PrivateRoute from "./rotasPrivadas";
+import CadastroProduto from "../../pages/cadastroProduto";
 
 export default function Routers() {
     return (
@@ -29,6 +30,11 @@ export default function Routers() {
             <Route
                 path="/home"
                 element={<Home />}
+            />
+
+            <Route
+                path="/cadastrarProduto"
+                element={<CadastroProduto />}
             />
         </Routes>
     );
